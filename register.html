@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/register.css" />
+  </head>
+  <body>
+    <nav class="navigation-bar">
+      <div class="navigation-bar-container">
+        <img src="/assets/logo.png" alt="Logo" />
+      </div>
+    </nav>
+
+    <main>
+      <div class="main-box">
+        <div class="main-box-title">
+          <h1>Pendaftaran Akun</h1>
+          <p>Yuk, daftarkan akunmu sekarang juga!</p>
+        </div>
+
+        <div class="main-box-content">
+          <div class="box-input">
+            <label for="nama-lengkap">Nama Lengkap</label>
+            <input type="text" name="nama-lengkap" id="nama-lengkap" />
+          </div>
+          <div class="box-input">
+            <label for="e-mail">E-mail</label>
+            <input type="email" name="e-mail" id="e-mail" />
+          </div>
+          <div class="box-input">
+            <label for="country-code">No. Hp</label>
+
+            <div class="phone-input">
+              <div class="phone-country-flag">
+                <img src="/icons/indonesia.png" alt="" />
+                <select name="country" id="country-code">
+                  <option value="indonesia">+62</option>
+                  <option value="singapore">+1</option>
+                  <option value="malaysia">+2</option>
+                </select>
+              </div>
+
+              <input type="text" id="phone-number" name="phone-number" placeholder="123-456-7890" required />
+            </div>
+          </div>
+
+          <div class="box-input">
+            <label for="password">Kata Sandi</label>
+            <div class="box-input-password">
+              <input type="password" name="password" id="password" />
+              <img id="password-eye" src="/icons/hidden.png" alt="" srcset="" />
+            </div>
+          </div>
+
+          <div class="box-input">
+            <label for="password">Konfirmasi Kata Sandi</label>
+            <div class="box-input-password">
+              <input type="password" name="password" id="password" />
+              <img id="password-eye" src="/icons/hidden.png" alt="" srcset="" />
+            </div>
+            <span>Lupa password?</span>
+          </div>
+
+          <div class="box-login-register">
+            <button id="tombol-masuk" type="button">Masuk</button>
+            <button id="tombol-daftar" type="button">Daftar</button>
+
+            <div class="separator">
+              <span>atau</span>
+            </div>
+
+            <button id="tombol-google" type="button">
+              <img src="/icons/search.png" alt="" />
+              <span>Masuk dengan Google</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

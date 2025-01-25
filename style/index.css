@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgba(51, 51, 51, 0.68);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+  padding: 5px;
+  margin-top: 7px;
+  height: 100%;
+}
+
+button {
+  padding: 7px 0px !important;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fffdf3;
+}
+
+.navigation-bar {
+  width: 100%;
+  height: 100%;
+}
+
+.navigation-bar-container {
+  max-width: 85vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.navigation-bar-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navigation-bar-links a {
+  text-decoration: none;
+  color: rgba(51, 51, 51, 0.68);
+}
+
+.navigation-bar-links img {
+  width: 30px;
+  border-radius: 30px;
+}
+
+/* width under 800px should use lower font size */
+@media (max-width: 800px) {
+  .navigation-bar-container {
+    font-size: 0.8em;
+  }
+
+  h1 {
+    font-size: 0.9rem !important;
+  }
+
+  p {
+    font-size: 0.7rem !important;
+  }
+}
