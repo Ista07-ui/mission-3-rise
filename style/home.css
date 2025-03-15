@@ -367,6 +367,7 @@ footer {
   flex-direction: column;
   gap: 1rem;
   padding: 2rem;
+  width: 100%;
 }
 
 .footer-menu {
