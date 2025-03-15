@@ -42,7 +42,7 @@ section {
 }
 
 .frameText {
-  color: white;
+  color: #ffffff;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -53,16 +53,19 @@ section {
 
 .frameDescription {
   line-height: 1.5rem;
+  font-size: 16px;
+  margin: auto;
 }
 
 .frameButton {
   background: #3ecf4c;
   border-radius: 10px;
-  padding: 0.7rem 2rem !important;
+  padding: 0.7rem 1rem !important;
   max-width: 20rem;
   width: 100%;
   text-align: center;
   margin: auto;
+  font-size: 14px;
 }
 
 .buttonText {
@@ -98,7 +101,7 @@ section {
 
 .cardTextSubtitle {
   color: #333333;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -159,7 +162,7 @@ section {
 .card-item {
   width: 100%;
   padding: 20px;
-  background: white;
+  background: #ffffff;
   border-radius: 10px;
   border: 1px rgba(58, 53, 65, 0.12) solid;
   flex-direction: column;
